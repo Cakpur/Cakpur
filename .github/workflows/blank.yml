@@ -1,0 +1,557 @@
+mixed-port: 7890
+allow-lan: false
+ipv6: false
+mode: Rule
+log-level: silent
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 127.8.0.1/16
+  nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  fallback:
+    - 1.1.1.1
+    - 8.8.8.8
+proxies:
+  - {name: AU ðŸ‡¦ðŸ‡º Brisbane_@BN_CHANLL, server: 144.48.39.131, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: In-Mumbai.ðŸ‡®ðŸ‡³_@BN_CHANLL, server: 103.156.51.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: BR ðŸ‡§ðŸ‡· Sao Paulo_@BN_CHANLL, server: 191.96.13.212, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: VN ðŸ‡»ðŸ‡³ Ho Chi Minh City_@BN_CHANLL, server: 202.143.110.32, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Az-Baku.ðŸ‡¦ðŸ‡¿_@BN_CHANLL, server: 62.212.239.69, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: NG ðŸ‡³ðŸ‡¬ Lagos_@BN_CHANLL, server: 102.165.23.4, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Vn-HoChiMinh.ðŸ‡»ðŸ‡³_@BN_CHANLL, server: 202.143.110.29, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Orlando 1_@BN_CHANLL, server: 66.115.182.101, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IL ðŸ‡®ðŸ‡± Tel Aviv_@BN_CHANLL, server: 87.239.255.121, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: GB ðŸ‡¬ðŸ‡§ Glasgow 1_@BN_CHANLL, server: 185.108.105.186, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: AU ðŸ‡¦ðŸ‡º Sydney_@BN_CHANLL, server: 180.149.228.27, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Sg-Singapore.ðŸ‡¸ðŸ‡¬_@BN_CHANLL, server: 89.187.162.186, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: AR ðŸ‡¦ðŸ‡· Buenos Aires_@BN_CHANLL, server: 91.206.168.19, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Nz-Auckland.ðŸ‡³ðŸ‡¿_@BN_CHANLL, server: 180.149.231.3, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: MX ðŸ‡²ðŸ‡½ Mexico City_@BN_CHANLL, server: 194.41.112.9, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Ar-BuenosAires.ðŸ‡¦ðŸ‡·_@BN_CHANLL, server: 91.206.168.3, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CO ðŸ‡¨ðŸ‡´ Bogota_@BN_CHANLL, server: 45.129.32.34, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Ng-Lagos.ðŸ‡³ðŸ‡¬_@BN_CHANLL, server: 102.165.23.40, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Mx-MexicoCity.ðŸ‡²ðŸ‡½_@BN_CHANLL, server: 194.41.112.19, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Ca-Vancouver.ðŸ‡¨ðŸ‡¦_@BN_CHANLL, server: 172.83.40.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Bend 2_@BN_CHANLL, server: 154.16.168.184, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ San Francisco 2_@BN_CHANLL, server: 185.124.240.159, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Bend 1_@BN_CHANLL, server: 45.43.14.103, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Phoenix 4_@BN_CHANLL, server: 23.83.128.233, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IN ðŸ‡®ðŸ‡³ Chennai_@BN_CHANLL, server: 103.94.27.229, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Id-Jakarta.ðŸ‡®ðŸ‡©_@BN_CHANLL, server: 103.120.66.221, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: TH ðŸ‡¹ðŸ‡­ Bangkok_@BN_CHANLL, server: 27.131.138.176, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IN ðŸ‡®ðŸ‡³ Indore_@BN_CHANLL, server: 137.59.52.109, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Au-Adelaide.ðŸ‡¦ðŸ‡º_@BN_CHANLL, server: 45.248.79.21, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Au-Sydney.ðŸ‡¦ðŸ‡º_@BN_CHANLL, server: 45.125.247.109, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: In-Chennai.ðŸ‡®ðŸ‡³_@BN_CHANLL, server: 103.108.117.147, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Au-Melbourne.ðŸ‡¦ðŸ‡º_@BN_CHANLL, server: 103.192.80.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Au-Brisbane.ðŸ‡¦ðŸ‡º_@BN_CHANLL, server: 144.48.39.67, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Py-Asuncion.ðŸ‡µðŸ‡¾_@BN_CHANLL, server: 186.16.32.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: GB ðŸ‡¬ðŸ‡§ London 4_@BN_CHANLL, server: 89.34.99.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: BA ðŸ‡§ðŸ‡¦ Sarajevo_@BN_CHANLL, server: 185.99.3.207, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Ee-Tallinn.ðŸ‡ªðŸ‡ª_@BN_CHANLL, server: 185.174.159.136, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: BE ðŸ‡§ðŸ‡ª Brussels 4_@BN_CHANLL, server: 91.90.123.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: UA ðŸ‡ºðŸ‡¦ Kyiv_@BN_CHANLL, server: 45.9.238.47, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IT ðŸ‡®ðŸ‡¹ Rome 1_@BN_CHANLL, server: 82.102.26.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Pl-Gdansk.ðŸ‡µðŸ‡±_@BN_CHANLL, server: 178.255.45.189, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: FR ðŸ‡«ðŸ‡· Paris 3_@BN_CHANLL, server: 143.244.57.117, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IT ðŸ‡®ðŸ‡¹ Rome 3_@BN_CHANLL, server: 82.102.26.117, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: GB ðŸ‡¬ðŸ‡§ London 1_@BN_CHANLL, server: 195.206.169.203, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: AZ ðŸ‡¦ðŸ‡¿ Baku_@BN_CHANLL, server: 62.212.239.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: RU ðŸ‡·ðŸ‡º St. Petersburg_@BN_CHANLL, server: 188.92.78.203, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: FR ðŸ‡«ðŸ‡· Paris 1_@BN_CHANLL, server: 143.244.57.103, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: DK ðŸ‡©ðŸ‡° Copenhagen_@BN_CHANLL, server: 193.29.107.187, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: GB ðŸ‡¬ðŸ‡§ Glasgow 2_@BN_CHANLL, server: 185.108.105.55, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Za-Johannesburg.ðŸ‡¿ðŸ‡¦_@BN_CHANLL, server: 154.127.50.140, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: FR ðŸ‡«ðŸ‡· Paris 2_@BN_CHANLL, server: 143.244.57.68, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: BE ðŸ‡§ðŸ‡ª Brussels 1_@BN_CHANLL, server: 194.110.115.93, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Es-Valencia.ðŸ‡ªðŸ‡¸_@BN_CHANLL, server: 185.153.150.70, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: AE ðŸ‡¦ðŸ‡ª Dubai_@BN_CHANLL, server: 176.125.231.13, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IT ðŸ‡®ðŸ‡¹ Milan 1_@BN_CHANLL, server: 84.17.58.148, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Pt-Lisbon.ðŸ‡µðŸ‡¹_@BN_CHANLL, server: 91.205.230.140, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IT ðŸ‡®ðŸ‡¹ Milan 2_@BN_CHANLL, server: 212.102.54.150, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Pt-Porto.ðŸ‡µðŸ‡¹_@BN_CHANLL, server: 194.39.127.173, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Hr-Zagreb.ðŸ‡­ðŸ‡·_@BN_CHANLL, server: 176.222.34.113, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: HR ðŸ‡­ðŸ‡· Zagreb_@BN_CHANLL, server: 176.222.34.121, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Boston 4_@BN_CHANLL, server: 173.237.207.42, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: PT ðŸ‡µðŸ‡¹ Porto_@BN_CHANLL, server: 194.39.127.36, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: LU ðŸ‡±ðŸ‡º Luxembourg_@BN_CHANLL, server: 185.153.151.96, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: NO ðŸ‡³ðŸ‡´ Oslo_@BN_CHANLL, server: 91.219.215.21, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Ru-Moscow.ðŸ‡·ðŸ‡º_@BN_CHANLL, server: 92.38.138.112, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: NL ðŸ‡³ðŸ‡± Amsterdam 3_@BN_CHANLL, server: 212.102.35.214, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Es-Barcelona.ðŸ‡ªðŸ‡¸_@BN_CHANLL, server: 82.102.26.235, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Fr-Paris.ðŸ‡«ðŸ‡·_@BN_CHANLL, server: 143.244.57.112, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Sk-Bratislava.ðŸ‡¸ðŸ‡°_@BN_CHANLL, server: 185.76.8.210, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: RU ðŸ‡·ðŸ‡º Moscow_@BN_CHANLL, server: 92.38.138.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: GB ðŸ‡¬ðŸ‡§ Manchester 2_@BN_CHANLL, server: 84.39.114.86, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CR ðŸ‡¨ðŸ‡· San Jose_@BN_CHANLL, server: 176.222.34.115, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: My-KualaLumpur.ðŸ‡²ðŸ‡¾_@BN_CHANLL, server: 42.0.30.158, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CZ ðŸ‡¨ðŸ‡¿ Prague_@BN_CHANLL, server: 185.180.14.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: DE ðŸ‡©ðŸ‡ª Frankfurt am Main 1_@BN_CHANLL, server: 156.146.33.67, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Lu-Steinsel.ðŸ‡±ðŸ‡º_@BN_CHANLL, server: 185.153.151.91, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Lv-Riga.ðŸ‡±ðŸ‡»_@BN_CHANLL, server: 91.203.69.176, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ New York 1_@BN_CHANLL, server: 138.199.40.179, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Latham 4_@BN_CHANLL, server: 45.43.19.84, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Md-Chisinau.ðŸ‡²ðŸ‡©_@BN_CHANLL, server: 194.33.40.114, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: GB ðŸ‡¬ðŸ‡§ Manchester 1_@BN_CHANLL, server: 194.37.98.219, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Mk-Skopje.ðŸ‡²ðŸ‡°_@BN_CHANLL, server: 185.225.28.69, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Latham 3_@BN_CHANLL, server: 45.43.19.68, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Manassas 3_@BN_CHANLL, server: 23.105.163.109, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: MK ðŸ‡²ðŸ‡° Skopje_@BN_CHANLL, server: 185.225.28.85, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: TW ðŸ‡¹ðŸ‡¼ Taichung City_@BN_CHANLL, server: 103.152.151.85, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-Charlotte.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 155.254.28.141, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-Manassas.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 207.244.84.58, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Charlotte 3_@BN_CHANLL, server: 192.154.255.52, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CA ðŸ‡¨ðŸ‡¦ Toronto_@BN_CHANLL, server: 68.71.244.208, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-Latham.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 154.16.169.5, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Uk-Glasgow.ðŸ‡¬ðŸ‡§_@BN_CHANLL, server: 185.108.105.155, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ New York 2_@BN_CHANLL, server: 172.98.75.35, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Manassas 2_@BN_CHANLL, server: 23.105.160.138, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CY ðŸ‡¨ðŸ‡¾ Nicosia_@BN_CHANLL, server: 195.47.194.42, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Charlotte 2_@BN_CHANLL, server: 155.254.29.165, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Manassas 4_@BN_CHANLL, server: 23.105.163.80, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Is-Reykjavik.ðŸ‡®ðŸ‡¸_@BN_CHANLL, server: 45.133.193.219, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CA ðŸ‡¨ðŸ‡¦ Montreal_@BN_CHANLL, server: 91.245.254.67, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Boston 2_@BN_CHANLL, server: 173.237.207.32, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Buffalo 1_@BN_CHANLL, server: 107.175.104.86, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Chicago 3_@BN_CHANLL, server: 184.170.250.154, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Latham 2_@BN_CHANLL, server: 45.43.19.74, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Boston 3_@BN_CHANLL, server: 173.237.207.56, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Ca-Montreal.ðŸ‡¨ðŸ‡¦_@BN_CHANLL, server: 91.245.254.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Chicago 2_@BN_CHANLL, server: 138.199.42.161, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: FR ðŸ‡«ðŸ‡· Marseille 4_@BN_CHANLL, server: 185.166.84.55, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Detroit 1_@BN_CHANLL, server: 104.244.208.203, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Detroit 2_@BN_CHANLL, server: 104.244.210.125, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: ES ðŸ‡ªðŸ‡¸ Barcelona_@BN_CHANLL, server: 185.188.61.25, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Chicago 4_@BN_CHANLL, server: 138.199.42.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Buffalo 2_@BN_CHANLL, server: 64.44.42.194, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ St. Louis 4_@BN_CHANLL, server: 148.72.169.211, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Tampa 2_@BN_CHANLL, server: 209.216.92.202, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-Chicago.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 138.199.42.137, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Al-Tirana.ðŸ‡¦ðŸ‡±_@BN_CHANLL, server: 31.171.155.21, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Las Vegas 4_@BN_CHANLL, server: 79.110.54.91, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Tampa 1_@BN_CHANLL, server: 209.216.92.3, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: ES ðŸ‡ªðŸ‡¸ Valencia_@BN_CHANLL, server: 185.153.150.50, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Miami 3_@BN_CHANLL, server: 89.38.227.173, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-Houston.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 199.10.64.165, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Houston 2_@BN_CHANLL, server: 104.148.30.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-Miami.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 212.102.61.132, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Tampa 4_@BN_CHANLL, server: 209.216.92.222, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Houston 4_@BN_CHANLL, server: 104.148.30.85, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Nz ðŸ‡³ðŸ‡¿ Auckland_@BN_CHANLL, server: 180.149.231.43, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Chicago 1_@BN_CHANLL, server: 138.199.42.151, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Miami 4_@BN_CHANLL, server: 45.87.214.253, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IT ðŸ‡®ðŸ‡¹ Milan 4_@BN_CHANLL, server: 212.102.55.68, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Kansas City 1_@BN_CHANLL, server: 173.208.149.197, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: PY ðŸ‡µðŸ‡¾ AsunciÃ³n_@BN_CHANLL, server: 181.40.18.47, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Ua-Kiev.ðŸ‡ºðŸ‡¦_@BN_CHANLL, server: 45.9.238.23, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Tampa 3_@BN_CHANLL, server: 209.216.92.200, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Kansas City 2_@BN_CHANLL, server: 63.141.236.245, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Orlando 4_@BN_CHANLL, server: 66.115.182.79, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-KansasCity.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 63.141.236.243, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Il-TelAviv.ðŸ‡®ðŸ‡±_@BN_CHANLL, server: 87.239.255.107, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Kansas City 4_@BN_CHANLL, server: 63.141.248.181, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Kansas City 3_@BN_CHANLL, server: 69.30.249.125, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Houston 1_@BN_CHANLL, server: 199.10.64.69, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Tw-Taipei.ðŸ‡¹ðŸ‡¼_@BN_CHANLL, server: 103.152.151.67, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-Seattle.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 212.102.46.56, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-Phoenix.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 199.58.187.67, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: AU ðŸ‡¦ðŸ‡º Perth_@BN_CHANLL, server: 124.150.139.29, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Phoenix 2_@BN_CHANLL, server: 199.58.187.15, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CA ðŸ‡¨ðŸ‡¦ Vancouver_@BN_CHANLL, server: 172.83.40.147, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Seattle 4_@BN_CHANLL, server: 212.102.46.65, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Boston 1_@BN_CHANLL, server: 173.237.207.38, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Miami 1_@BN_CHANLL, server: 91.219.214.11, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-SanFrancisco.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 23.81.181.1, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Phoenix 1_@BN_CHANLL, server: 199.58.187.3, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Bend 4_@BN_CHANLL, server: 154.16.168.188, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Tr-Istanbul.ðŸ‡¹ðŸ‡·_@BN_CHANLL, server: 107.150.94.43, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Los Angeles 4_@BN_CHANLL, server: 212.103.49.147, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: ID ðŸ‡®ðŸ‡© Jakarta_@BN_CHANLL, server: 103.120.66.219, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Cy-Nicosia.ðŸ‡¨ðŸ‡¾_@BN_CHANLL, server: 195.47.194.56, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Las Vegas 2_@BN_CHANLL, server: 79.110.54.117, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: AL ðŸ‡¦ðŸ‡± Tirana_@BN_CHANLL, server: 31.171.153.133, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Bend 3_@BN_CHANLL, server: 45.43.14.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Las Vegas 3_@BN_CHANLL, server: 79.110.54.131, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: AU ðŸ‡¦ðŸ‡º Melbourne_@BN_CHANLL, server: 144.48.38.179, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IE ðŸ‡®ðŸ‡ª Dublin_@BN_CHANLL, server: 23.92.127.91, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: IS ðŸ‡®ðŸ‡¸ Reykjavik_@BN_CHANLL, server: 45.133.193.221, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: PL ðŸ‡µðŸ‡± Gdansk_@BN_CHANLL, server: 178.255.44.69, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Miami 2_@BN_CHANLL, server: 89.38.227.165, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Atlanta 2_@BN_CHANLL, server: 66.115.175.50, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: Us-Boston.ðŸ‡ºðŸ‡¸_@BN_CHANLL, server: 173.237.207.44, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Atlanta 3_@BN_CHANLL, server: 66.115.166.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Detroit 4_@BN_CHANLL, server: 104.244.210.115, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: US ðŸ‡ºðŸ‡¸ Detroit 3_@BN_CHANLL, server: 104.244.210.139, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: s4_@BN_CHANLL, server: 138.199.42.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: s3_@BN_CHANLL, server: 193.29.107.187, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: s2_@BN_CHANLL, server: 185.108.105.186, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: s1_@BN_CHANLL, server: 91.90.123.189, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: Indonesia_@BN_CHANLL, server: 103.93.56.151, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
+  - {name: Poland_@BN_CHANLL, server: 146.59.3.33, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV}
+proxy-groups:
+  - name: ðŸ”° SELECT [BN_CHANLL]
+    type: select
+    proxies:
+      - â™»ï¸ BESTPING [BN_CHANLL]
+      - AU ðŸ‡¦ðŸ‡º Brisbane_@BN_CHANLL
+      - In-Mumbai.ðŸ‡®ðŸ‡³_@BN_CHANLL
+      - BR ðŸ‡§ðŸ‡· Sao Paulo_@BN_CHANLL
+      - VN ðŸ‡»ðŸ‡³ Ho Chi Minh City_@BN_CHANLL
+      - Az-Baku.ðŸ‡¦ðŸ‡¿_@BN_CHANLL
+      - NG ðŸ‡³ðŸ‡¬ Lagos_@BN_CHANLL
+      - Vn-HoChiMinh.ðŸ‡»ðŸ‡³_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Orlando 1_@BN_CHANLL
+      - IL ðŸ‡®ðŸ‡± Tel Aviv_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ Glasgow 1_@BN_CHANLL
+      - AU ðŸ‡¦ðŸ‡º Sydney_@BN_CHANLL
+      - Sg-Singapore.ðŸ‡¸ðŸ‡¬_@BN_CHANLL
+      - AR ðŸ‡¦ðŸ‡· Buenos Aires_@BN_CHANLL
+      - Nz-Auckland.ðŸ‡³ðŸ‡¿_@BN_CHANLL
+      - MX ðŸ‡²ðŸ‡½ Mexico City_@BN_CHANLL
+      - Ar-BuenosAires.ðŸ‡¦ðŸ‡·_@BN_CHANLL
+      - CO ðŸ‡¨ðŸ‡´ Bogota_@BN_CHANLL
+      - Ng-Lagos.ðŸ‡³ðŸ‡¬_@BN_CHANLL
+      - Mx-MexicoCity.ðŸ‡²ðŸ‡½_@BN_CHANLL
+      - Ca-Vancouver.ðŸ‡¨ðŸ‡¦_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Bend 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ San Francisco 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Bend 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Phoenix 4_@BN_CHANLL
+      - IN ðŸ‡®ðŸ‡³ Chennai_@BN_CHANLL
+      - Id-Jakarta.ðŸ‡®ðŸ‡©_@BN_CHANLL
+      - TH ðŸ‡¹ðŸ‡­ Bangkok_@BN_CHANLL
+      - IN ðŸ‡®ðŸ‡³ Indore_@BN_CHANLL
+      - Au-Adelaide.ðŸ‡¦ðŸ‡º_@BN_CHANLL
+      - Au-Sydney.ðŸ‡¦ðŸ‡º_@BN_CHANLL
+      - In-Chennai.ðŸ‡®ðŸ‡³_@BN_CHANLL
+      - Au-Melbourne.ðŸ‡¦ðŸ‡º_@BN_CHANLL
+      - Au-Brisbane.ðŸ‡¦ðŸ‡º_@BN_CHANLL
+      - Py-Asuncion.ðŸ‡µðŸ‡¾_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ London 4_@BN_CHANLL
+      - BA ðŸ‡§ðŸ‡¦ Sarajevo_@BN_CHANLL
+      - Ee-Tallinn.ðŸ‡ªðŸ‡ª_@BN_CHANLL
+      - BE ðŸ‡§ðŸ‡ª Brussels 4_@BN_CHANLL
+      - UA ðŸ‡ºðŸ‡¦ Kyiv_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Rome 1_@BN_CHANLL
+      - Pl-Gdansk.ðŸ‡µðŸ‡±_@BN_CHANLL
+      - FR ðŸ‡«ðŸ‡· Paris 3_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Rome 3_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ London 1_@BN_CHANLL
+      - AZ ðŸ‡¦ðŸ‡¿ Baku_@BN_CHANLL
+      - RU ðŸ‡·ðŸ‡º St. Petersburg_@BN_CHANLL
+      - FR ðŸ‡«ðŸ‡· Paris 1_@BN_CHANLL
+      - DK ðŸ‡©ðŸ‡° Copenhagen_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ Glasgow 2_@BN_CHANLL
+      - Za-Johannesburg.ðŸ‡¿ðŸ‡¦_@BN_CHANLL
+      - FR ðŸ‡«ðŸ‡· Paris 2_@BN_CHANLL
+      - BE ðŸ‡§ðŸ‡ª Brussels 1_@BN_CHANLL
+      - Es-Valencia.ðŸ‡ªðŸ‡¸_@BN_CHANLL
+      - AE ðŸ‡¦ðŸ‡ª Dubai_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Milan 1_@BN_CHANLL
+      - Pt-Lisbon.ðŸ‡µðŸ‡¹_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Milan 2_@BN_CHANLL
+      - Pt-Porto.ðŸ‡µðŸ‡¹_@BN_CHANLL
+      - Hr-Zagreb.ðŸ‡­ðŸ‡·_@BN_CHANLL
+      - HR ðŸ‡­ðŸ‡· Zagreb_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Boston 4_@BN_CHANLL
+      - PT ðŸ‡µðŸ‡¹ Porto_@BN_CHANLL
+      - LU ðŸ‡±ðŸ‡º Luxembourg_@BN_CHANLL
+      - NO ðŸ‡³ðŸ‡´ Oslo_@BN_CHANLL
+      - Ru-Moscow.ðŸ‡·ðŸ‡º_@BN_CHANLL
+      - NL ðŸ‡³ðŸ‡± Amsterdam 3_@BN_CHANLL
+      - Es-Barcelona.ðŸ‡ªðŸ‡¸_@BN_CHANLL
+      - Fr-Paris.ðŸ‡«ðŸ‡·_@BN_CHANLL
+      - Sk-Bratislava.ðŸ‡¸ðŸ‡°_@BN_CHANLL
+      - RU ðŸ‡·ðŸ‡º Moscow_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ Manchester 2_@BN_CHANLL
+      - CR ðŸ‡¨ðŸ‡· San Jose_@BN_CHANLL
+      - My-KualaLumpur.ðŸ‡²ðŸ‡¾_@BN_CHANLL
+      - CZ ðŸ‡¨ðŸ‡¿ Prague_@BN_CHANLL
+      - DE ðŸ‡©ðŸ‡ª Frankfurt am Main 1_@BN_CHANLL
+      - Lu-Steinsel.ðŸ‡±ðŸ‡º_@BN_CHANLL
+      - Lv-Riga.ðŸ‡±ðŸ‡»_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ New York 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Latham 4_@BN_CHANLL
+      - Md-Chisinau.ðŸ‡²ðŸ‡©_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ Manchester 1_@BN_CHANLL
+      - Mk-Skopje.ðŸ‡²ðŸ‡°_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Latham 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Manassas 3_@BN_CHANLL
+      - MK ðŸ‡²ðŸ‡° Skopje_@BN_CHANLL
+      - TW ðŸ‡¹ðŸ‡¼ Taichung City_@BN_CHANLL
+      - Us-Charlotte.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Us-Manassas.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Charlotte 3_@BN_CHANLL
+      - CA ðŸ‡¨ðŸ‡¦ Toronto_@BN_CHANLL
+      - Us-Latham.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Uk-Glasgow.ðŸ‡¬ðŸ‡§_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ New York 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Manassas 2_@BN_CHANLL
+      - CY ðŸ‡¨ðŸ‡¾ Nicosia_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Charlotte 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Manassas 4_@BN_CHANLL
+      - Is-Reykjavik.ðŸ‡®ðŸ‡¸_@BN_CHANLL
+      - CA ðŸ‡¨ðŸ‡¦ Montreal_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Boston 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Buffalo 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Chicago 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Latham 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Boston 3_@BN_CHANLL
+      - Ca-Montreal.ðŸ‡¨ðŸ‡¦_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Chicago 2_@BN_CHANLL
+      - FR ðŸ‡«ðŸ‡· Marseille 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Detroit 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Detroit 2_@BN_CHANLL
+      - ES ðŸ‡ªðŸ‡¸ Barcelona_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Chicago 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Buffalo 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ St. Louis 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Tampa 2_@BN_CHANLL
+      - Us-Chicago.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Al-Tirana.ðŸ‡¦ðŸ‡±_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Las Vegas 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Tampa 1_@BN_CHANLL
+      - ES ðŸ‡ªðŸ‡¸ Valencia_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Miami 3_@BN_CHANLL
+      - Us-Houston.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Houston 2_@BN_CHANLL
+      - Us-Miami.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Tampa 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Houston 4_@BN_CHANLL
+      - Nz ðŸ‡³ðŸ‡¿ Auckland_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Chicago 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Miami 4_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Milan 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Kansas City 1_@BN_CHANLL
+      - PY ðŸ‡µðŸ‡¾ AsunciÃ³n_@BN_CHANLL
+      - Ua-Kiev.ðŸ‡ºðŸ‡¦_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Tampa 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Kansas City 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Orlando 4_@BN_CHANLL
+      - Us-KansasCity.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Il-TelAviv.ðŸ‡®ðŸ‡±_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Kansas City 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Kansas City 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Houston 1_@BN_CHANLL
+      - Tw-Taipei.ðŸ‡¹ðŸ‡¼_@BN_CHANLL
+      - Us-Seattle.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Us-Phoenix.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - AU ðŸ‡¦ðŸ‡º Perth_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Phoenix 2_@BN_CHANLL
+      - CA ðŸ‡¨ðŸ‡¦ Vancouver_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Seattle 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Boston 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Miami 1_@BN_CHANLL
+      - Us-SanFrancisco.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Phoenix 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Bend 4_@BN_CHANLL
+      - Tr-Istanbul.ðŸ‡¹ðŸ‡·_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Los Angeles 4_@BN_CHANLL
+      - ID ðŸ‡®ðŸ‡© Jakarta_@BN_CHANLL
+      - Cy-Nicosia.ðŸ‡¨ðŸ‡¾_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Las Vegas 2_@BN_CHANLL
+      - AL ðŸ‡¦ðŸ‡± Tirana_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Bend 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Las Vegas 3_@BN_CHANLL
+      - AU ðŸ‡¦ðŸ‡º Melbourne_@BN_CHANLL
+      - IE ðŸ‡®ðŸ‡ª Dublin_@BN_CHANLL
+      - IS ðŸ‡®ðŸ‡¸ Reykjavik_@BN_CHANLL
+      - PL ðŸ‡µðŸ‡± Gdansk_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Miami 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Atlanta 2_@BN_CHANLL
+      - Us-Boston.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Atlanta 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Detroit 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Detroit 3_@BN_CHANLL
+      - s4_@BN_CHANLL
+      - s3_@BN_CHANLL
+      - s2_@BN_CHANLL
+      - s1_@BN_CHANLL
+      - Indonesia_@BN_CHANLL
+      - Poland_@BN_CHANLL
+  - name: â™»ï¸ BESTPING [BN_CHANLL]
+    type: url-test
+    url: https://www.google.com
+    interval: 100
+    proxies:
+      - AU ðŸ‡¦ðŸ‡º Brisbane_@BN_CHANLL
+      - In-Mumbai.ðŸ‡®ðŸ‡³_@BN_CHANLL
+      - BR ðŸ‡§ðŸ‡· Sao Paulo_@BN_CHANLL
+      - VN ðŸ‡»ðŸ‡³ Ho Chi Minh City_@BN_CHANLL
+      - Az-Baku.ðŸ‡¦ðŸ‡¿_@BN_CHANLL
+      - NG ðŸ‡³ðŸ‡¬ Lagos_@BN_CHANLL
+      - Vn-HoChiMinh.ðŸ‡»ðŸ‡³_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Orlando 1_@BN_CHANLL
+      - IL ðŸ‡®ðŸ‡± Tel Aviv_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ Glasgow 1_@BN_CHANLL
+      - AU ðŸ‡¦ðŸ‡º Sydney_@BN_CHANLL
+      - Sg-Singapore.ðŸ‡¸ðŸ‡¬_@BN_CHANLL
+      - AR ðŸ‡¦ðŸ‡· Buenos Aires_@BN_CHANLL
+      - Nz-Auckland.ðŸ‡³ðŸ‡¿_@BN_CHANLL
+      - MX ðŸ‡²ðŸ‡½ Mexico City_@BN_CHANLL
+      - Ar-BuenosAires.ðŸ‡¦ðŸ‡·_@BN_CHANLL
+      - CO ðŸ‡¨ðŸ‡´ Bogota_@BN_CHANLL
+      - Ng-Lagos.ðŸ‡³ðŸ‡¬_@BN_CHANLL
+      - Mx-MexicoCity.ðŸ‡²ðŸ‡½_@BN_CHANLL
+      - Ca-Vancouver.ðŸ‡¨ðŸ‡¦_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Bend 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ San Francisco 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Bend 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Phoenix 4_@BN_CHANLL
+      - IN ðŸ‡®ðŸ‡³ Chennai_@BN_CHANLL
+      - Id-Jakarta.ðŸ‡®ðŸ‡©_@BN_CHANLL
+      - TH ðŸ‡¹ðŸ‡­ Bangkok_@BN_CHANLL
+      - IN ðŸ‡®ðŸ‡³ Indore_@BN_CHANLL
+      - Au-Adelaide.ðŸ‡¦ðŸ‡º_@BN_CHANLL
+      - Au-Sydney.ðŸ‡¦ðŸ‡º_@BN_CHANLL
+      - In-Chennai.ðŸ‡®ðŸ‡³_@BN_CHANLL
+      - Au-Melbourne.ðŸ‡¦ðŸ‡º_@BN_CHANLL
+      - Au-Brisbane.ðŸ‡¦ðŸ‡º_@BN_CHANLL
+      - Py-Asuncion.ðŸ‡µðŸ‡¾_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ London 4_@BN_CHANLL
+      - BA ðŸ‡§ðŸ‡¦ Sarajevo_@BN_CHANLL
+      - Ee-Tallinn.ðŸ‡ªðŸ‡ª_@BN_CHANLL
+      - BE ðŸ‡§ðŸ‡ª Brussels 4_@BN_CHANLL
+      - UA ðŸ‡ºðŸ‡¦ Kyiv_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Rome 1_@BN_CHANLL
+      - Pl-Gdansk.ðŸ‡µðŸ‡±_@BN_CHANLL
+      - FR ðŸ‡«ðŸ‡· Paris 3_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Rome 3_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ London 1_@BN_CHANLL
+      - AZ ðŸ‡¦ðŸ‡¿ Baku_@BN_CHANLL
+      - RU ðŸ‡·ðŸ‡º St. Petersburg_@BN_CHANLL
+      - FR ðŸ‡«ðŸ‡· Paris 1_@BN_CHANLL
+      - DK ðŸ‡©ðŸ‡° Copenhagen_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ Glasgow 2_@BN_CHANLL
+      - Za-Johannesburg.ðŸ‡¿ðŸ‡¦_@BN_CHANLL
+      - FR ðŸ‡«ðŸ‡· Paris 2_@BN_CHANLL
+      - BE ðŸ‡§ðŸ‡ª Brussels 1_@BN_CHANLL
+      - Es-Valencia.ðŸ‡ªðŸ‡¸_@BN_CHANLL
+      - AE ðŸ‡¦ðŸ‡ª Dubai_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Milan 1_@BN_CHANLL
+      - Pt-Lisbon.ðŸ‡µðŸ‡¹_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Milan 2_@BN_CHANLL
+      - Pt-Porto.ðŸ‡µðŸ‡¹_@BN_CHANLL
+      - Hr-Zagreb.ðŸ‡­ðŸ‡·_@BN_CHANLL
+      - HR ðŸ‡­ðŸ‡· Zagreb_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Boston 4_@BN_CHANLL
+      - PT ðŸ‡µðŸ‡¹ Porto_@BN_CHANLL
+      - LU ðŸ‡±ðŸ‡º Luxembourg_@BN_CHANLL
+      - NO ðŸ‡³ðŸ‡´ Oslo_@BN_CHANLL
+      - Ru-Moscow.ðŸ‡·ðŸ‡º_@BN_CHANLL
+      - NL ðŸ‡³ðŸ‡± Amsterdam 3_@BN_CHANLL
+      - Es-Barcelona.ðŸ‡ªðŸ‡¸_@BN_CHANLL
+      - Fr-Paris.ðŸ‡«ðŸ‡·_@BN_CHANLL
+      - Sk-Bratislava.ðŸ‡¸ðŸ‡°_@BN_CHANLL
+      - RU ðŸ‡·ðŸ‡º Moscow_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ Manchester 2_@BN_CHANLL
+      - CR ðŸ‡¨ðŸ‡· San Jose_@BN_CHANLL
+      - My-KualaLumpur.ðŸ‡²ðŸ‡¾_@BN_CHANLL
+      - CZ ðŸ‡¨ðŸ‡¿ Prague_@BN_CHANLL
+      - DE ðŸ‡©ðŸ‡ª Frankfurt am Main 1_@BN_CHANLL
+      - Lu-Steinsel.ðŸ‡±ðŸ‡º_@BN_CHANLL
+      - Lv-Riga.ðŸ‡±ðŸ‡»_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ New York 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Latham 4_@BN_CHANLL
+      - Md-Chisinau.ðŸ‡²ðŸ‡©_@BN_CHANLL
+      - GB ðŸ‡¬ðŸ‡§ Manchester 1_@BN_CHANLL
+      - Mk-Skopje.ðŸ‡²ðŸ‡°_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Latham 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Manassas 3_@BN_CHANLL
+      - MK ðŸ‡²ðŸ‡° Skopje_@BN_CHANLL
+      - TW ðŸ‡¹ðŸ‡¼ Taichung City_@BN_CHANLL
+      - Us-Charlotte.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Us-Manassas.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Charlotte 3_@BN_CHANLL
+      - CA ðŸ‡¨ðŸ‡¦ Toronto_@BN_CHANLL
+      - Us-Latham.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Uk-Glasgow.ðŸ‡¬ðŸ‡§_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ New York 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Manassas 2_@BN_CHANLL
+      - CY ðŸ‡¨ðŸ‡¾ Nicosia_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Charlotte 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Manassas 4_@BN_CHANLL
+      - Is-Reykjavik.ðŸ‡®ðŸ‡¸_@BN_CHANLL
+      - CA ðŸ‡¨ðŸ‡¦ Montreal_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Boston 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Buffalo 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Chicago 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Latham 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Boston 3_@BN_CHANLL
+      - Ca-Montreal.ðŸ‡¨ðŸ‡¦_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Chicago 2_@BN_CHANLL
+      - FR ðŸ‡«ðŸ‡· Marseille 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Detroit 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Detroit 2_@BN_CHANLL
+      - ES ðŸ‡ªðŸ‡¸ Barcelona_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Chicago 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Buffalo 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ St. Louis 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Tampa 2_@BN_CHANLL
+      - Us-Chicago.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Al-Tirana.ðŸ‡¦ðŸ‡±_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Las Vegas 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Tampa 1_@BN_CHANLL
+      - ES ðŸ‡ªðŸ‡¸ Valencia_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Miami 3_@BN_CHANLL
+      - Us-Houston.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Houston 2_@BN_CHANLL
+      - Us-Miami.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Tampa 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Houston 4_@BN_CHANLL
+      - Nz ðŸ‡³ðŸ‡¿ Auckland_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Chicago 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Miami 4_@BN_CHANLL
+      - IT ðŸ‡®ðŸ‡¹ Milan 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Kansas City 1_@BN_CHANLL
+      - PY ðŸ‡µðŸ‡¾ AsunciÃ³n_@BN_CHANLL
+      - Ua-Kiev.ðŸ‡ºðŸ‡¦_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Tampa 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Kansas City 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Orlando 4_@BN_CHANLL
+      - Us-KansasCity.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Il-TelAviv.ðŸ‡®ðŸ‡±_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Kansas City 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Kansas City 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Houston 1_@BN_CHANLL
+      - Tw-Taipei.ðŸ‡¹ðŸ‡¼_@BN_CHANLL
+      - Us-Seattle.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - Us-Phoenix.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - AU ðŸ‡¦ðŸ‡º Perth_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Phoenix 2_@BN_CHANLL
+      - CA ðŸ‡¨ðŸ‡¦ Vancouver_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Seattle 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Boston 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Miami 1_@BN_CHANLL
+      - Us-SanFrancisco.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Phoenix 1_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Bend 4_@BN_CHANLL
+      - Tr-Istanbul.ðŸ‡¹ðŸ‡·_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Los Angeles 4_@BN_CHANLL
+      - ID ðŸ‡®ðŸ‡© Jakarta_@BN_CHANLL
+      - Cy-Nicosia.ðŸ‡¨ðŸ‡¾_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Las Vegas 2_@BN_CHANLL
+      - AL ðŸ‡¦ðŸ‡± Tirana_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Bend 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Las Vegas 3_@BN_CHANLL
+      - AU ðŸ‡¦ðŸ‡º Melbourne_@BN_CHANLL
+      - IE ðŸ‡®ðŸ‡ª Dublin_@BN_CHANLL
+      - IS ðŸ‡®ðŸ‡¸ Reykjavik_@BN_CHANLL
+      - PL ðŸ‡µðŸ‡± Gdansk_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Miami 2_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Atlanta 2_@BN_CHANLL
+      - Us-Boston.ðŸ‡ºðŸ‡¸_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Atlanta 3_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Detroit 4_@BN_CHANLL
+      - US ðŸ‡ºðŸ‡¸ Detroit 3_@BN_CHANLL
+      - s4_@BN_CHANLL
+      - s3_@BN_CHANLL
+      - s2_@BN_CHANLL
+      - s1_@BN_CHANLL
+      - Indonesia_@BN_CHANLL
+      - Poland_@BN_CHANLL
+rules:
+ - MATCH,â™»ï¸ BESTPING [BN_CHANLL],ðŸ”° SELECT [BN_CHANLL]
